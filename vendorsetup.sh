@@ -22,10 +22,6 @@ git clone https://github.com/Positron-B/vendor_xiaomi_miuicamera-veux.git vendor
 git clone https://github.com/MrTopia/vendor_xiaomi_miuicamera.git vendor/xiaomi/miuicamera
 cd vendor/xiaomi/veux/proprietary/system/priv-app/MiuiCamera/ && rm -rf MiuiCamera.apk && wget https://github.com/MrTopia/device_xiaomi_veux/releases/download/stuffs/MiuiCamera.apk && cd ../../../../../../..
 
-echo "Cloning Priv Keys..."
-# Keys
-git clone https://github.com/MrTopia/.android-certs
-
 echo "Cloning BCR..."
 # BCR
 git clone https://github.com/MrTopia/vendor_bcr vendor/bcr

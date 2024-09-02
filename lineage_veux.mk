@@ -14,9 +14,7 @@ $(call inherit-product, $(LOCAL_PATH)/device.mk)
 # Inherit some common PixelExperience stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
-TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_SUPPORTS_QUICK_TAP := true
-TARGET_USES_AOSP_RECOVERY := true
 
 PRODUCT_BRAND := Redmi
 PRODUCT_DEVICE := veux
@@ -42,9 +40,9 @@ TARGET_INCLUDE_LIVE_WALLPAPERS := true
 
 # EPPE
 TARGET_DISABLE_EPPE := true
-EVEREST_BUILD_TYPE := OFFICIAL
-EVEREST_MAINTAINER := MrTopiA
-TARGET_SUPPORTS_BLUR := true
-WITH_GAPPS := true
-TARGET_PREBUILT_LAWNCHAIR_LAUNCHER := true
-TARGET_DEFAULT_PIXEL_LAUNCHER := true
+
+# SAKURA FLAGS
+SAKURA_MAINTAINER := ReveRTX
+TARGET_BOOT_ANIMATION_RES := 1080
+SAKURA_BUILD_TYPE := gapps
+SAKURA_OFFICIAL := true

@@ -14,9 +14,9 @@ $(call inherit-product, $(LOCAL_PATH)/device.mk)
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
-# Boot animation
-TARGET_SCREEN_HEIGHT := 2400
-TARGET_SCREEN_WIDTH := 1080
+# SAKURA FLAGS
+TARGET_BOOT_ANIMATION_RES := 1080
+SAKURA_BUILD_TYPE := gapps
 
 PRODUCT_BRAND := Redmi
 PRODUCT_DEVICE := veux

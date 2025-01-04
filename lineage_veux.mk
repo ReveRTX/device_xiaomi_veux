@@ -15,6 +15,7 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 SAKURA_MAINTAINER := ReveRTX
 TARGET_BOOT_ANIMATION_RES := 1080
 SAKURA_BUILD_TYPE := gapps
+SAKURA_OFFICIAL := true
 
 # Inherit from veux device
 $(call inherit-product, device/xiaomi/veux/device.mk)

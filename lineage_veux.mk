@@ -16,6 +16,8 @@ SAKURA_MAINTAINER := ReveRTX
 TARGET_BOOT_ANIMATION_RES := 1080
 SAKURA_BUILD_TYPE := gapps
 SAKURA_OFFICIAL := true
+BUILD_GOOGLE_CONTACTS := true
+BUILD_GOOGLE_MESSAGE := true
 
 # Inherit from veux device
 $(call inherit-product, device/xiaomi/veux/device.mk)

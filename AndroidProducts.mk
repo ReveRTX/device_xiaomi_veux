@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/pixelstar_veux.mk
+    $(LOCAL_DIR)/lineage_veux.mk
 
 COMMON_LUNCH_CHOICES := \
-    pixelstar_veux-user \
-    pixelstar_veux-userdebug \
-    pixelstar_veux-eng
+    lineage_veux-user \
+    lineage_veux-userdebug \
+    lineage_veux-eng
